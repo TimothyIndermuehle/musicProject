@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>music that matters</title>
+	<meta name="description" content="Kaibab 101" />
+	<meta name="keywords" content="Kaibab Plateau, Grand Canyon, Grand Staircase, music, autobiography, interactive" />
+	<meta name="author" content="Tim Indermuehle" />
+	<!--bootstrap link-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../../css/base.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/demo1.css" />
+	<script>
+		document.documentElement.className = "js";
+		var supportsCssVars = function () {
+			var e, t = document.createElement("style");
+			return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS
+				.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e
+		};
+		supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+	</script>
+</head>
+
+<body class="demo-1 loading">
+	<!--header and nav bar-->
+	<header class=" ~~~~~~~~~~~~~~~~~~~~~^contentcodrops-header">
+		<div id="volumes" class="demo nav-bar">Volume 1 &nbsp &nbsp &nbsp &nbsp Episode 4</div>
+		<nav class="demo nav-bar">
+			<a class="demo" href="https://www.livexlive.com/album/various-artists/toms-album" target="blank"><span>Tom's
+					Album</span></a>
+			<a class="demo" href="https://www.summitpost.org/kaibab-plateau-north-rim-lookout/images/p-319719"
+				target="blank"><span>Kaibab photos</span></a>
+			<a class="demo" href="../../index2.html"><span>return to mtm archive</span></a>
+		</nav>
+	</header>
+	<main>
+
+		<!--main section-->
+		<div class="content">
+			<div class="content__section">
+				<span class="content__main">music that matters</span>
+				<span class="content__text">kaibab pt. 1</span>
+			</div>
+
+			<!-- Lorem Ipsum-->
+			<div class="content__section">
+				<img class="content__img" src="../../img/volume1/ep4_kaibab1/vcLodge.jpg"
+					alt="People drinking beer at Vermillion Cliffs lodge with lots of empty bottles on table." />
+				<h2 class="content__text">connect the dots</h2>
+				<h4>Vermillion Cliffs Lodge, Arizona</h4>
+				<h5>August 1992</h5>
+				<ul>
+					<li>350 inches</li>
+					<li>Tom's Diner</li>
+					<li>A Dirty Dozen</li>
+					<li>My Brother Esau</li>
+					<li>Cross country skis</li>
+					<li>Exploding buildings</li>
+					<li>A mountain lying down</li>
+					<li>A couple name Joy and Gay (the happiest couple ever)</li>
+				</ul>
+				<p>
+					Welcome to this month's episode of Music That Matters. As you scroll through and dig around in the links,
+					including the <a href="#spaceCat">space cat shout-out,</a> you will wonder where is this going? Every single
+					element of this web page is related, believe it or not, and will be revealed in the not too distant fututre.
+					It
+					almost sounds like the plot of a murder mystery novel set somewhere in Northern Arizona if you ask me.
+					Actually it sounds more like the plot to a movie, maybe <a class="con"
+						href="https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/05/21/09/the-shining-2.jpg?width=1200"
+						target="blank">The Shining.</a>
+					<h5 class="text-primary"><i> Click blue text links or album covers for a musical trivia adventure.</i></h5>
+			</div>
+
+			<div class="content__section">
+				<img class="content__img" src="../../img/volume1/ep4_kaibab1/kaibaMap.png" alt="">
+				<h2 class="content__text">8200 feet </h2>
+				<p><a content__link href="https://en.wikipedia.org/wiki/Kaibab_Plateau" target="blank">The Kaibab
+						Plateau </a> is a 1,152 square mile plateau located in Arizona between Grand Canyon National Park and the
+					Utah boarder. Kaibab is a Paiute Indian word meaning "mountain lying down", and with the Arizona Strip
+					wilderness area to the west and the Navjo Nation to to the east making, it is one of the least
+					populated
+					regions in the lower 48. While the surounding area is part of the Colorado Plateau at 3500 feet above
+					sea level, the Kaibab is located between
+					8000 and 9200 feet with a more temperate climate with temperatures rarely
+					topping out above 85 degress. The yearly North American monsoon event in July and August brings
+					afternoon thunderstorms everyday and the resulting afternoon rainbows. It is a beautiful
+					ponderosa pine & aspen forest filled with deer and <a content__link
+						href="https://www.atlasobscura.com/places/squirrels-of-the-kaibab-plateau" target="blank">Kaibab squirrels.
+					</a>  The highest point on the plateau is the tenth highest peak in Arizona and captures considerable
+					snow some years.
+				</p>
+
+				<!--image modal-->
+				<!--modal trigger-->
+				<img class="mt-3 content__img" id="myImg" src="../../img/volume1/ep4_kaibab1/grandStaircase.jpg"
+					alt="The Grand Staircase of the Colorado" style="width:100%;max-width:800px">
+
+				<!-- grand staircase modal -->
+				<div id="myModal" class="modal">
+					<span class="close">&times;</span>
+					<img class="modal-content" id="img01">
+					<div id="caption"></div>
+				</div>
+				<p id="clickMe"> Click picture for full size
+				</p>
+				<p>The Grand Staircase can be seen from the <a
+						href="https://www.google.com/maps/place/Le+Fevre+Overlook+and+Rest+Area/@36.8305554,-112.2546027,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMFTFtmI8__W42jVjC8Q33mGqEVzmS8SzKTMmt2!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMFTFtmI8__W42jVjC8Q33mGqEVzmS8SzKTMmt2%3Dw203-h114-k-no!7i4032!8i2268!4m13!1m7!3m6!1s0x873497c86c68482f:0x3c0d87b4e5f2c60c!2sJacob+Lake,+AZ+86022!3b1!8m2!3d36.7138368!4d-112.2168982!3m4!1s0x8734bff10a581585:0xa21bfbcf9ad96d2a!8m2!3d36.8305503!4d-112.2546101"
+						target="blank">Le
+						Fevre Overlook </a> on US highway 89A which is the north boundry of the Kaibab Plateau. It
+					begins at Cedar Breaks Park (12,000 feet) and <a
+						href="https://earthobservatory.nasa.gov/images/89916/bryce-canyon-national-park?src=ve" target="blank">Bryce
+						Canyon
+						National Park. </a> (9,100 feet) and is a series of plateaus and sandstone/ shale cliffs that are all
+					multi-colored and
+					named after the surronding rock colors. The <a
+						href="https://www.visitarizona.com/places/parks-monuments/vermilion-cliffs-national-monument-and-the-wave/"
+						target="blank">Vermillion Cliffs</a> is the last of the Grand Staircase steps you drive at the base on US
+					Highway 89A before you drive up the <a href="https://www.knau.org/post/land-lines-east-kaibab-monocline"
+						target="blank">East Kaibab Monocline,</a> a fold in the earth, to the Kaibab Plateau. The Kaibab Plateau and
+					Grand Canyon National
+					Park are the southern most
+					features of the Grand Staircase, and this all part of the Colorado Plateau. The entire region was one of the
+					last mappped parts of the United
+					States and is linked by a series of national and state parks. The Grand Staircase is part of the Colorado
+					Plateau, one of the four American dessert regions in the four corners of Utah, Colorado, New Mexico and
+					Arizona. It is a colorful desert filled with red and magenta canyons with snow capped mountains. </p>
+			</div>
+
+			<div class="content__section">
+				<div class="media">
+					<div class="media-body">
+						<h4 class="mt-0 mb-1">Grateful Dead</h4>
+						<h5 class="mt-0 mb-1">My Brother Esau</h5>
+						<h6 class="text-danger">Click album covers for music links</h6>
+						<i>My Brother Essau</i> is a 1987 single that was a B-side song to the 45 rpm record <i>Touch of Grey.</i>
+						Before MP3 music and compact disks, music was played in bars on jukeboxes on 45rpm records at a cost of a
+						quarter for three songs. It is a
+						classic Bob Weir spacey strange song that references brothers Esau and Jacob in the book of Genesis, and the
+						relationship with their father. The warrior brother is held in revernece by their father until he comes back
+						a failure when America loses its first war in Vietnam.
+						<br><br> The line "Yet sometimes at night I dream,
+						he's still that hairy man.
+						Shadowboxing the apocalypse, wandering the land" resonates with me for some reason.
+					</div>
+					<a content__link
+						href="https://www.livexlive.com/song/grateful-dead/my-brother-esau?source=cpc_adwordssearch_feb2021&utm_source=adwordssearch&utm_medium=cpc"
+						target="blank"><img src="../../img/volume1/ep4_kaibab1/touchOfGrey.jpg" alt="Donna Summer album cover"></a>
+				</div>
+				<span class="content__text">top pick #1</span>
+			</div>
+			<div class="content__section">
+				<div class="media">
+					<div class="media-body">
+						<h4 class="mt-0 mb-1">Sons of the Pioneers</h4>
+						<h5 class="mt-0 mb-1">Tumbling Tumblweeds</h5>
+						In the <a href="https://www.bluesbrothersofficialsite.com/" target="blank">Blues Brother</a> movie Dan
+						Akroyd makes refernce to "both kinds of music, country and
+						western". Country music was originally bluegrass out of Appalachia and western music was the yodling music
+						your Grandmother Owl hates
+						from Texas.
+						This song is Western Music with it's story of the old west and frontier life from a time era that barely
+						existed but is overly celebrated. This song was featured in one
+						of Uncle Vince's favorite movies, <i>The Big Lebowski.</i>
+					</div>
+					<a content__link href="https://www.livexlive.com/song/the-sons-of-the-pioneers/tumbling-tumbleweeds/71178336"
+						target="blank"><img src="../../img/volume1/ep4_kaibab1/tumblingTumbleweeds.jpg"
+							alt="Donna Summer album cover"></a>
+				</div>
+				<span class="content__text">top pick #2</span>
+			</div>
+			<div class="content__section">
+				<div class="media last">
+					<div class="media-body">
+						<h4 class="mt-0 mb-1">Suzanne Vega</h4>
+						<h5 class="mt-0 mb-1">Tom's Diner</h5>
+						"Tom's Diner" is a acapela song written in 1982 by American singer and songwriter Suzanne Vega. It was first
+						released on a studio album in 1987 and then became a bootleg cult classic. Vega discoverd the pirate copies
+						and, instead of pressing charges, put them on a compilation albom called <i>Tom's Album.</i> The songs
+						range from hip-hop to EDM to pure lounge music. <br><br>Because the
+						song was used by German sound engineers to develop the compression format that would becoome MP3, Suzanne
+						Vega earned the title "The Mother of the MP3"
+					</div>
+					<a content__link href="https://www.livexlive.com/song/suzanne-vega/toms-diner/1595171" target="blank"><img
+							src="../../img/volume1/ep4_kaibab1/tomsAlbum.jpg" alt="Donna Summer album cover"></a>
+				</div>
+				<span class="content__text">top pick #3</span>
+			</div>
+
+			<!--one day in time section-->
+			<div class="content__section">
+				<img class="content__img" src="../../img/volume1/ep4_kaibab1/timScottColeen.jpg"
+					alt="Singing Nun, Jeannine Deckers, playing guitar" />
+				<h2 class="content__text">one day in time</h2>
+				<h4>Eagle's Nest Ridge, Vail Mountain</h4>
+				<h5>Winter '91</h5>
+				<p>This photo was taken the winter of 1991 with my roommates Scott and Colleen on the top of Chair 2 on Vail
+					Mountain. Scott had the best butt on Vail Mountain and Colleen loves Milli Vanilli. I can tell that it was
+					1991 becase I was on alpine skis and I hadn't started growing my pony tail
+					yet. The winds of change were blowing, however, and my life was going to be headed toward Northern Arizona in
+					the near future and there was going to be no going back.
+				</p>
+				<p>In the winters I worked for a Vail Ski Rentals as a ski shop assistant manager at the base of Vail Mountain,
+					and in the summers I worked for a raft company called Raftmeister with a bunch of groovy people that I am
+					still
+					friends with and still raft with. I was reading everything I could get my hands on by author <a
+						href="https://www.abbeyweb.net/introduction.html" target="blank">Edward Abbey,</a> a naturalist and fiction
+					writer who lived on the Colorado Plateau and fought to protect it until the day he died. His most famous work
+					of fiction, <a href="https://en.wikipedia.org/wiki/The_Monkey_Wrench_Gang" target="blank">The Monkey Wrench
+						Gang</a> is the story of river runners and the Grand Canyon, and I aways saw myself as the character Seldom
+					seen Smith, the river guide. Edward Abbey was a chauvinist and highly controversial because he was
+					one of the fathers of eco-terrorism but also wrote BEAUTIFUL naturalist writing in the tradition of Aldo
+					Leopold and John Muir.</p>
+				<p>I had been guiding rafts for three years and had experienced a limited amount of high water during run-off
+					and had only heard aboout the big water years in 1983 and 1984 when <a
+						href="http://www.riversimulator.org/Resources/GCDAMP/GCDAMPchronicle/1983FloodGCDhannon.pdf"
+						target="blank">Glen Canyon Dam</a> was almost destroyed. I had dreamed of seeing a historic snow year and
+					seeing historic high water. </p>
+				<p>I've heard of an acient Chinese curse that goes something like <i>"May you get
+						everything you ever wished for." </i> There was a historic snow year waiting for me to find it but I will
+					fill you in on that one later my fabulous darlings . . . . . . . . . </p>
+			</div>
+
+			<!--space cat link-->
+			<div class="content__section" id="spaceCat">
+				<h2 class="content__text">space cat link</h2>
+				<h1><a content__link href="../../img/volume1/ep4_kaibab1/kaibabSpaceCat.jpg" target="blank">Click here for this
+						week's
+						space cat link </a></h1>
+				<h4>This week's Space Cat shout-out goes to my friend Leslie Forstner.</h4>
+				<p>She's a bad-ass canyon momma that loves the Grand Canyon as much as I do! She was the team leader of twelve
+					of the most
+					eclectic people I have ever met. We drank a ton of beer and merlot on North Rim viewpoints
+					together, and I
+					know she wishes she had freakin' lasars coming out of her hands a few times. For the record, we were a poorly behaved staff a majority of the time.  For this reason, and many others, she gets a space cat shout-out. Whoo-hoo!
+				</p>
+				<p>Thank you for being our friend Leslie and giving me the gift of the Grand Canyon, the most beautiful lady
+					I've ever met. After I ate shit on Lava my third trip down,  the canyon convinced me to finally seek help for my PTSD and move on.</p>
+			</div>
+
+			<!--footer section-->
+			<footer class="content__section last">
+				<div class="content__contact content__link">
+					<a href="https://www.instagram.com/bad_backcast/" target="blank">instagram</a>
+					<a href="https://www.facebook.com/tim.indermuehle/" target="blank">facebook</a>
+					<a href="mailto:ind7734@gmail.com">email</a>
+				</div>
+				<h2 class="content__text">contact</h2>
+			</footer>
+		</div>
+	</main>
+
+	<script src="../../js/imagesloaded.pkgd.min.js"></script>
+	<script src="../../js/charming.min.js"></script>
+	<script src="../../js/demo1.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</body>
+
+</html>
